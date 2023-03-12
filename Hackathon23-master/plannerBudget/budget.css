@@ -1,0 +1,83 @@
+body {
+    background:rgb(255, 227, 190);
+    color:  black;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+padding: 20px;
+height: 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Style the container */
+.container {
+margin: 0 auto;
+max-width: 800px;
+text-align: center;
+}
+
+/* Style the table */
+table {
+border-collapse: collapse;
+width: 100%;
+}
+
+th, td {
+border: 1px solid black;
+padding: 8px;
+text-align: left;
+}
+
+th {
+background-color: #ddd;
+}
+
+td {
+background-color: white;
+}
+
+/* Style the total row */
+.total {
+font-weight: bold;
+}
+
+/* Style the progress bars */
+.progress-bar {
+background-color: #f2f2f2;
+border-radius: 25px;
+height: 20px;
+margin: 10px 0;
+overflow: hidden;
+width: 100%;
+}
+
+.progress {
+background-color: #008CBA;
+border-radius: 25px;
+height: 100%;
+transition: width 0.5s ease-in-out;
+}
+
+/* Style the headings */
+h1 {
+font-size: 36px;
+margin-bottom: 20px;
+}
+
+h2 {
+font-size: 24px;
+margin-bottom: 10px;
+}
